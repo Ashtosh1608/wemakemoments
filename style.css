@@ -36,10 +36,25 @@
     .about{
         font-size: 1.5rem;
     }
-}
-@media screen and (max-width :1000px) {
     .menu{
         font-size: 2.5rem;
         text-align: center;
     }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .full-quote{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .first-half-quote{
+        width: 465px;
+        text-align: center;
+    }
+
 }
+
