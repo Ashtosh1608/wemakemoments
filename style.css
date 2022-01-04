@@ -2,7 +2,7 @@
     font-size: 1.1rem;
 }
 .footer{
-    padding: 5px 10px;
+    padding: 0;
     text-align: center;
     background-color: #B1CFDA;
 }
@@ -12,15 +12,15 @@
 .small-logo{
     padding: 2px 10px;
 }
-.footer p{
+/* .footer p{
     /* font-size: 35px; */
-    /* text-align: center; */
-}
+    /* text-align: center; 
+} */
 .small-logo:hover{
     color: lightslategrey;
 }
 .first-half-quote{
-    background-color: darkslategray;
+    background-color: rgb(110, 141, 155);
     padding: 35%;
 }
 .full-quote{
@@ -65,7 +65,7 @@
 @media screen and (max-width :1000px){
     
     .first-half-quote{
-        background-color: darkslategray;
+        background-color: rgb(110, 141, 155);
         padding: 8%;
         text-align: center;
     }
@@ -74,6 +74,13 @@
         padding-top: 15px;
 
     }
+    #fq{
+        padding: 0px;
+    }
+    .menu{
+        text-align: center;
+    }
+   
 
 }
 
