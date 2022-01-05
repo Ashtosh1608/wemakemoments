@@ -1,5 +1,6 @@
 .about{
     font-size: 1.1rem;
+    text-align: center;
 }
 .footer{
     padding: 0;
@@ -66,12 +67,12 @@
     
     .first-half-quote{
         background-color: rgb(110, 141, 155);
-        padding: 8%;
+        padding: 10px;
         text-align: center;
     }
     .full-quote{
         padding: 0;
-        padding-top: 15px;
+        padding-top: 0px;
 
     }
     #fq{
@@ -80,9 +81,21 @@
     .menu{
         text-align: center;
     }
-   
+    .quote-index{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .uq{
+        padding-left: 20px;
+        text-align: left;
+
+    }
 
 }
+/* .download-button{
+    background-color: darkgrey;
+} */
 
 .service-body{
     text-align: center;
@@ -90,4 +103,10 @@
 .body-inside{
     background-color: #E4F9F5;
     padding-bottom: 10px;
+}
+.oc{
+    text-align: center;
+}
+.des{
+    padding-top: 10px;
 }
