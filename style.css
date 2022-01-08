@@ -94,7 +94,7 @@
         text-align: center;
     }
     .uq{
-        padding-left: 60px;
+        padding-left: 50px;
         text-align: left;
 
     }
@@ -106,6 +106,22 @@
         margin: 40PX;
         border-radius: 100%;
     }
+    .testimonial-text{
+        font-size: 20px;
+    }
+    #upperpics{
+        text-align: center;
+        /* background-color: #ef8172; */
+        /* background-color: rgb(119, 158, 184); */
+        color: #fff;
+        padding: 0;
+    
+        
+    }
+    .upper-image{
+        width: 100%;
+    }
+
 
 }
 /* .download-button{
@@ -131,15 +147,27 @@
 }
 #testimonials{
     text-align: center;
-    background-color: #ef8172;
+    /* background-color: #ef8172; */
+    background-color: rgb(119, 158, 184);
     color: #fff;
     padding: 40px;
 }
+
 @media screen and (min-width :1000px){
 .testimonials-image{
     width: 10%;
     margin: 30PX;
     border-radius: 100%;
+}
+
+#upperpics{
+    text-align: center;
+    /* background-color: #ef8172; */
+    background-color: rgb(119, 158, 184);
+    color: #fff;
+    padding: 40px;
+
+    
 }
 
 
