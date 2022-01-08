@@ -1,6 +1,13 @@
 .about{
     font-size: 1.1rem;
     text-align: center;
+    font-family: 'Waterfall', cursive;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.about h2{
+    font-size: 50px;
 }
 .footer{
     padding: 0;
@@ -94,6 +101,11 @@
     .fm{
         padding-right: 15px;
     }
+    .testimonials-image{
+        width: 40%;
+        margin: 40PX;
+        border-radius: 100%;
+    }
 
 }
 /* .download-button{
@@ -106,10 +118,29 @@
 .body-inside{
     background-color: #E4F9F5;
     padding-bottom: 10px;
+    padding-top: 10px;
+    /* font-family: 'Waterfall', cursive; */
+    /* font-weight: 500;
+    font-size: 2px; */
 }
 .oc{
     text-align: center;
 }
 .des{
     padding-top: 10px;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    padding: 40px;
+}
+@media screen and (min-width :1000px){
+.testimonials-image{
+    width: 10%;
+    margin: 30PX;
+    border-radius: 100%;
+}
+
+
 }
