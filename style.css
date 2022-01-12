@@ -156,7 +156,16 @@
     color: #fff;
     padding: 40px;
 }
-
+.llogo{
+    height: 65px;
+    width: 65px;
+  
+}
+.cprt{
+    text-align: center;
+    padding-top: 15px;
+    line-height: 7px;
+}
 @media screen and (min-width :1000px){
 .testimonials-image{
     width: 10%;
