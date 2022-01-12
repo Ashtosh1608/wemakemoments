@@ -122,6 +122,9 @@
     .upper-image{
         width: 100%;
     }
+    .gall-image{
+        width: 100%;
+    }
 
 
 }
@@ -169,6 +172,11 @@
     padding: 40px;
 
     
+}
+.gall-image{
+    /* width: 100px; */
+    height: 400px;
+    width: 400px;
 }
 
 
